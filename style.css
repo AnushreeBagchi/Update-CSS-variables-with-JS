@@ -1,0 +1,39 @@
+body{
+    color: royalblue;
+}
+.variables{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+label, input{
+    margin: 1em;
+}
+
+img{
+    display: flex;
+    margin:auto;
+    /* border: 0.5em solid royalblue; */
+    /* defining variables */
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+}
+
+:root{
+    --base:  #41e174;
+    --spacing:10px;
+    --blur: 10px;
+}
+
+.js{
+    color: var(--base);
+}
+
